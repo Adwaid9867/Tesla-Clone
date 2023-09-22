@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tesla responsive</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="/tsla.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Signika+Negative:wght@400;500&display=swap"
+    rel="stylesheet">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+
+ 
+  <div class="bg-image bg-image-1" id="model3">
+    <div class="header">
+      <div class="logo"><img src="logo.jpg" alt=""></div>
+      <div class="nav">
+        <a href="#model3">Vehicles</a>
+        <a href="#modelX">Energy</a>
+        <a href="#modelS">Charging</a>
+        <a href="#modelY">Discover</a>
+        <a href="#SolarR">Accessories</a>
+      </div>
+      <div class="side-nav">
+        <a href="#">Shop</a>
+        <a href="#">Account</a>
+      </div>
+
+     
+      <div class="laptop-nav" id="myNav">
+        <a href="#model3" onclick="closeNav()">model 3</a>
+        <a href="#modelX" onclick="closeNav()">model X</a>
+        <a href="#modelS" onclick="closeNav()">model S</a>
+        <a href="#modelY" onclick="closeNav()">model Y</a>
+        <a href="#SolarR" onclick="closeNav()">Solar Roof</a>
+        <a href="#SolarP" onclick="closeNav()">Solar Panel</a>
+        <a href="#">Shop</a>
+        <a href="#">Account</a>
+      
+        
+        <span class="closebtn" onclick="closeNav()">&times;</span>
+        
+      </div>
+      
+      <div class="openbtn" onclick="openNav()">menu</div>
+      
+    </div>  
+
+
+
+  
+
+
+    <div class="txt txt-1">
+      <h2>model 3</h2>
+      <p>Order Online <u>Touch Delivery</u></p>
+    </div>
+    <div class="btn">
+      <button>Custom Order</button>
+      <button>Exixting Inventory</button>
+    </div>
+  </div>
+  </div>
+
+
+ 
+  <div class="bg-image bg-image-2" id="modelX">
+    <div class="txt txt-1">
+      <h2>model X</h2>
+      <p>Order Online <u>Touch Delivery</u></p>
+    </div>
+    <div class="btn">
+      <button>Custom Order</button>
+      <button>Exixting Inventory</button>
+    </div>
+  </div>
+  
+  <div class="bg-image bg-image-3" id="modelS">
+    <div class="txt txt-1">
+      <h2>model S</h2>
+      <p>Order Online <u>Touch Delivery</u></p>
+    </div>
+    <div class="btn">
+      <button>Custom Order</button>
+      <button>Exixting Inventory</button>
+    </div>
+  </div>
+  <div class="bg-image bg-image-4" id="modelY">
+    <div class="txt txt-1">
+      <h2>model Y</h2>
+      <p>Order Online <u>Touch Delivery</u></p>
+    </div>
+    <div class="btn">
+      <button>Custom Order</button>
+      <button>Exixting Inventory</button>
+    </div>
+  </div>
+  
+  <div class="bg-image bg-image-5" id="SolarR">
+    <div class="txt txt-1">
+      <h2>Solar Roof</h2>
+      <p>Order Online <u>Touch Delivery</u></p>
+    </div> 
+    <div class="btn">
+      <button>Custom Order</button>
+      <button>Exixting Inventory</button>
+    </div>
+  </div>
+  
+  <div class="bg-image bg-image-6" id="SolarP">
+    <div class="txt txt-1">
+      <h2>solar Panel</h2>
+      <p>Order Online <u>Touch Delivery</u></p>
+    </div>
+    <div class="btn">
+      <button>Custom Order</button>
+      <button>Exixting Inventory</button>
+    </div>
+  </div>
+ 
+  <div class="bg-image bg-image-7" id="model S">
+    <div class="txt txt-2">
+      <h2>model S</h2>
+
+    </div>
+    <div class="btn btn-1">
+      <button>Shop Now</button>
+
+    </div>
+  </div>
+  
+
+
+  <footer>
+    All the &copy; right reserved by Tesla
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+
+  
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+
+</script>
+</body>
+
+</html>
